@@ -1,9 +1,8 @@
 package interfaces;
 
 import java.util.List;
-
 import java.util.Optional;
-import modelos.Horario_Club; // Supongo que tienes una clase modelo Horario_Club
+import models.Horario_Club; // Supongo que tienes una clase modelo Horario_Club
 
 public interface Horario_ClubRepository {
 

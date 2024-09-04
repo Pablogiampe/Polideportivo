@@ -1,12 +1,12 @@
 package modelos;
 
-import java.time.*;
+import java.time.LocalDate;
 
 public class Horario_Club {
 	private String diaSemana;
-	private LocalTime horaApertura;
-	private LocalTime horaCierre;
-	public Horario_Club(String diaSemana, LocalTime horaApertura, LocalTime horaCierre) {
+	private LocalDate horaApertura;
+	private LocalDate horaCierre;
+	public Horario_Club(String diaSemana, LocalDate horaApertura, LocalDate horaCierre) {
 		super();
 		this.diaSemana = diaSemana;
 		this.horaApertura = horaApertura;
@@ -18,16 +18,16 @@ public class Horario_Club {
 	public void setDiaSemana(String diaSemana) {
 		this.diaSemana = diaSemana;
 	}
-	public LocalTime getHoraApertura() {
+	public LocalDate getHoraApertura() {
 		return horaApertura;
 	}
-	public void setHoraApertura(LocalTime horaApertura) {
+	public void setHoraApertura(LocalDate horaApertura) {
 		this.horaApertura = horaApertura;
 	}
-	public LocalTime getHoraCierre() {
+	public LocalDate getHoraCierre() {
 		return horaCierre;
 	}
-	public void setHoraCierre(LocalTime horaCierre) {
+	public void setHoraCierre(LocalDate horaCierre) {
 		this.horaCierre = horaCierre;
 	}
 	

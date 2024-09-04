@@ -1,9 +1,8 @@
 package interfaces;
 
 import java.util.List;
-
 import java.util.Optional;
-import modelos.Pago; // Supongo que tienes una clase modelo Pago
+import models.Pago; // Supongo que tienes una clase modelo Pago
 
 public interface PagoRepository {
 

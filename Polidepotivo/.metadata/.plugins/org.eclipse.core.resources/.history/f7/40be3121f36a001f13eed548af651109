@@ -1,0 +1,10 @@
+package modelos;
+
+import java.time.LocalDate;
+
+public class Pago {
+	private String metodoPago;
+	private double monto;
+	private LocalDate fechaPago;
+	
+}

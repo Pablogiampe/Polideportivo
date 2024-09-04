@@ -2,7 +2,7 @@ package interfaces;
 
 import java.util.List;
 import java.util.Optional;
-import modelos.Reserva; // Supongo que tienes una clase modelo Reserva
+import models.Reserva; // Supongo que tienes una clase modelo Reserva
 
 public interface ReservaRepository {
 

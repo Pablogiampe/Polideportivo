@@ -1,9 +1,8 @@
 package interfaces;
 
 import java.util.List;
-
 import java.util.Optional;
-import modelos.Cancha; // Supongo que tienes una clase modelo Cancha
+import models.Cancha; // Supongo que tienes una clase modelo Cancha
 
 public interface CanchaRepository {
 
